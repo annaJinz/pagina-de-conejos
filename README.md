@@ -1,2 +1,2 @@
 # pagina de conejos
-## mi primera pagina utilizando y conociendo las etiquetas de HTML
+## mi primera pagina utilizando y conociendo las etiquetas de HTML/ tecnolochicas PRO
