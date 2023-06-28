@@ -1,0 +1,41 @@
+body{
+    background-color:#cac5f8;
+    color:#460668;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3{
+    color:#72088d;
+    font-size: 23px;
+
+}
+
+h1, p{
+    color: #e3177f;
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    border-style:solid;
+    border-color:#460668;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    padding: 10px;
+
+}
+
+.img1{
+    width: 400px;
+    height: 500px;
+    border-style:solid;
+    border-color:#460668;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+a, small{
+    color: #460668;
+
+}
+/*esto es un comentario*/

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+   <head>
+       <title>pagina de Conejos</title>
+       <meta charset="UTF-8">
+       <link href="estilos.css" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+   </head>
+
+   <body>
+        <h1>Pagina de Conejos</h1>
+
+         <h3>Imagenes de Conejos</h3>
+         <!--imagen desde internet-->
+         <img class="img1" src="https://i.pinimg.com/564x/04/fc/90/04fc90df128b2f504a6b8aa60e7d290a.jpg">
+
+         <br>
+         <!---imagen desde la computadora-->
+         <img class="img2" src="imagenes/conejo.jpg">
+
+         <!--crear enlace externo-->
+         <p>si quieres ver mas imagenes de conejos,<a href="https://pixabay.com/es/images/search/conejo/" target="_blank">da click en este enlace</a>.</p>
+
+         <h1>Lista de conejos</h1>
+
+         <p>3 cosas que los conejos <strong>aman</strong></p>
+
+         <!--Lista ordenada-->
+         <ol> <!--ordered list-->
+            <li> Zanahorias</li><!--list item-->
+            <li>Correr</li>
+            <li>La hierba</li>
+         </ol>
+
+         <p>3 cosas que los conejos <i>odian</i></p>
+        <!--lista desordenada-->
+          <ul><!--unordered list-->
+            <li>Los ruidos fuertes</li>
+            <li>Los olores fuertes</li>
+            <li>Estar solos</li>
+          </ul>
+
+          <!--formularios-->
+          <form>
+            <!--form con botones de radio-->
+            <p>¿Tu conejo es cachorro o es adulto ?</p>
+            <label>
+                <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto"
+                checked>Cachorro
+            </label>
+            <br>
+            <label>  
+                <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto 
+            </label>
+            <!--form con casillas de verificación-->
+            <p>¿Que tipo de personalidad tiene tu conejo?</p>
+            <label>
+                <input id="enojon" type="checkbox" value="enojon" name="personalidad"checked>Enojón
+            </label>
+            <label>
+                <input id="energico" type="checkbox" value="energico" name="personalidad">Energico
+            </label>
+            <label>
+                <input id="alegre" type="checkbox" value="alegre" name="personalidad">Alegre
+            </label>
+        </form>
+    </body>
+
+    <footer>
+        <p><small>Esta pagina fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a>.</small></p>
+    </footer>
+</html>
